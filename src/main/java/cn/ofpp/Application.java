@@ -28,8 +28,8 @@ public class Application {
         // -----------------  以下为演示数据  ------------------------
 
         // new 一个 女友
-        GirlFriend girlFriend = new GirlFriend("王晨曦",
-                "江苏省", "徐州市", "2002-10-07", "2022-5-20", "oyp3p6eF76IetpT6LlR_I185EYfQ");
+        GirlFriend girlFriend = new GirlFriend("张鑫月",
+                "江苏省", "徐州市", "2003-01-28", "2018-01-20", "oyp3p6UfhKLh6dGs1lKM8Rj--qvs");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
 
         // new 一个 男友 也可单独针对一个friend设置模板ID 以达到不同人不同消息
