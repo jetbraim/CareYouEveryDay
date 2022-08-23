@@ -7,7 +7,6 @@
 `友情提示：master分支github actions执行规则是每天早上7点自动执行`
 `如果需要监听推送执行 请切换workflow_on_push分支`
 
-由于 博客服务器托管在GitPage节点在国外且前段时间cdn到期了 可能会访问比较慢～
 
 ![效果展示](https://static.marketup.cn/marketup/company/151/2022/822/cu/2809847835962369/20220822233123039-kesngm1h01iu.jpeg)
  
