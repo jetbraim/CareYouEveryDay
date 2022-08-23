@@ -10,7 +10,7 @@ import java.util.Date;
 import static cn.hutool.core.date.DateUtil.age;
 
 /**
- * @author DokiYolo
+ * @author wangchenxi
  * Date 2022-08-22
  */
 public class Friend {

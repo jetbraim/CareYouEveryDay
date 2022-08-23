@@ -11,7 +11,7 @@ import cn.ofpp.core.Wx;
  * 这个理论上只能用测试号 正式的号 个人认证是不支持模板消息的 企业认证的又必须使用微信模板库里的模板 只有测试的可以自定义模板内容
  * <a href="https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index">申请公众号测试应用地址</a>
  *
- * @author DokiYolo
+ * @author wangchenxi
  * Date 2022-08-22
  */
 public class Application {
@@ -28,8 +28,8 @@ public class Application {
         // -----------------  以下为演示数据  ------------------------
 
         // new 一个 女友
-        GirlFriend girlFriend = new GirlFriend("某女友",
-                "江苏省", "南京市", "1999-08-08", "2011-04-16", "oQFk-5qtXv2uGNCu9oiCiV85KWD8");
+        GirlFriend girlFriend = new GirlFriend("王晨曦",
+                "江苏省", "徐州市", "2002-10-07", "2022-5-20", "oyp3p6eF76IetpT6LlR_I185EYfQ");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
 
         // new 一个 男友 也可单独针对一个friend设置模板ID 以达到不同人不同消息

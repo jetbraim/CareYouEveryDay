@@ -9,7 +9,7 @@ import static cn.hutool.json.JSONUtil.parseObj;
 
 /**
  * <a href="https://lbs.amap.com">使用的高德</a>
- * @author DokiYolo
+ * @author wangchenxi
  * Date 2022-08-22
  */
 public class GaodeUtil {

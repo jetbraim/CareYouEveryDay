@@ -5,7 +5,7 @@ import cn.hutool.json.JSONUtil;
 
 /**
  * 随机爱情古诗
- * @author DokiYolo
+ * @author wangchenxi
  * Date 2022-08-22
  */
 public class RandomAncientPoetry {
