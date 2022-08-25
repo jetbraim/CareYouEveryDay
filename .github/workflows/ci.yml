@@ -2,7 +2,7 @@ name: CareUEveryDay Cron CI
 
 on:
   schedule:
-    - cron:  '15 13 * * *'
+    - cron:  '19 15 * * *'
 #on:
 #  push:
 #    branches:
