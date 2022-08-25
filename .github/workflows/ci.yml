@@ -2,12 +2,8 @@ name: CareUEveryDay Cron CI
 
 on:
   schedule:
-    - cron:  '33 15 * * *'
-#on:
-#  push:
-#    branches:
-#      - master
-
+    - cron:  '36 15 * * *'
+    
 jobs:
   build:
     runs-on: ubuntu-latest
